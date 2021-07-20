@@ -21,7 +21,7 @@ body{
     font-weight: 800;
     float: left;
     font-family: courier;
-    color:rgb(207, 16, 16);
+    color: white;
 }
 
 .menu{
@@ -36,5 +36,165 @@ nav{
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    background: cornsilk;
+    background: black;
+    z-index: 1;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color: orangered;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "comic sans-ms";
+    color: #89e005;
+}
+
+h2{
+    font-family: fantasy;
+    font-weight: 800;
+    font-size: 38px;
+    color: black;
+    margin-top: 10px;
+}
+
+p{
+    font-family: "comic sans ms";
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    margin-top: 10px;
+}
+
+a.tbl-biru{
+    background: red;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px, 20px, 15px, 20px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover{
+    background: greenyellow;
+    color: black;
+    text-decoration: none;
+}
+
+a.tbl-pink{
+    background: black;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px, 20px, 15px, 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover{
+    background: greenyellow;
+    text-decoration: none;
+    color: black;
+}
+
+p{
+    margin: 10px, 0px, 10px, 0px;
+    padding: 10px, 0px, 10px, 0px;
+}
+
+.tengah{
+    text-align: center;
+    width: 100%;
+}
+
+.product-list{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-product{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.kartu-product img{
+    width: 80%;
+    border-radius: 0%;
+}
+
+.kartu-product p{
+    font-family: "comic sans ms";
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+}
+
+#contact{
+    background: grey;
+    padding: 50px, 0px, 50px, 0px;
+}
+
+.footer{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section{
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3{
+    font-family: "comic sans ms";
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: black;
+    width: 100%;
+    line-height: 100%;
+}
+
+#copyright{
+    text-align: center;
+    width: 100%;
+    padding: 50px, 0px, 50px, 0px;
+    margin-top: 50px;
 }
